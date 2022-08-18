@@ -15,7 +15,7 @@
 | :-: | :-: | :-: |
 | 챕터 1-3 | 2022/07/31(일) 11:00 | 호준([챕터 1](/chapter/chapter1/README.md), [챕터 2](/chapter/chapter2/README.md)), 재욱([챕터 3](/chapter/chapter3/README.md)) |
 | 챕터 4-5 | 2022/08/18(목) 20:30 | 현구([챕터 4](/chapter/chapter4/README.md)), 정원([챕터 5](./chapter/chapter5/README.md)) |
-| 챕터 6-8 | 2022/08/24(수) 10:30 | 호준([챕터 6](/chapter/chapter6/README.md)), 재욱([챕터 7](./chapter/chapter7/README.md)), 현구([챕터 8](/chapter/chapter8/README.md)) |
+| 챕터 6-8 | 2022/08/24(수) 21:00 | 호준([챕터 6](/chapter/chapter6/README.md)), 재욱([챕터 7](./chapter/chapter7/README.md)), 현구([챕터 8](/chapter/chapter8/README.md)) |
 
 ### 👨‍👨‍👦‍👦 참여자
 
