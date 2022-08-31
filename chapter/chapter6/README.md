@@ -37,9 +37,9 @@
 
 ![Untitled](images/5.png)
 
-- `**var new_cart = cart.slice();` :** 복사본 만듬.
-- `**new_cart.splice(idx,1)**` :복사본 변경
-- `**return new_cart;` :** 복사본 return
+- **`var new_cart = cart.slice();`** : 복사본 만듬.
+- **`new_cart.splice(idx,1)`** :복사본 변경
+- **`return new_cart;` **: 복사본 return
 
 ![Untitled](images/6.png)
 
@@ -49,7 +49,7 @@
 
 ![Untitled](images/7.png)
 
-- `**.splice()**` 메서드를 일반화
+- **`.splice()`** 메서드를 일반화
 
 ![Untitled](images/8.png)
 
@@ -62,7 +62,7 @@
 
 ![Untitled](images/9.png)
 
-- `**.shift()**` 메서드는 값을 바꾸는 동시에 배열의 첫번째 항목을 return
+- **`.shift()`** 메서드는 값을 바꾸는 동시에 배열의 첫번째 항목을 return
 
 ### 두 가지 접근 방법
 
@@ -77,7 +77,7 @@
 
 ![Untitled](images/11.png)
 
-- `**.shift()**` 메서드의 return 값은 사용하지 않음.
+- **`.shift()`** 메서드의 return 값은 사용하지 않음.
 
 **쓰기 동작을 카피-온-라이트 로 변경**
 
@@ -136,7 +136,7 @@
 
 ![Untitled](images/17.png)
 
-- 배열에서는 `**.slice()` ,** 객체에서는 **`Object.assign()`**
+- 배열에서는 **`.slice()` **, 객체에서는 **`Object.assign()`**
 
 제품 가격을 설정하는 set_price() 코드
 
@@ -190,3 +190,4 @@
 
 - 구조적 공유에서 공유된 복사본이 변경되지 않는한 안전하다.
 - 값을 바꿀 때는 복사본을 만들기 때문에 공유된 값은 변경되지 않는다고 확신할 수 있음.
+
