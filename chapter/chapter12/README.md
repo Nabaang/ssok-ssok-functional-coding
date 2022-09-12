@@ -105,7 +105,6 @@ const transaction = reduce(
     
     const arr2 = [item];
     
-    // shallowCopy를
     // elemet를 접근할 때?
     arr2.forEach((obj => origin[i], i , origin) => {
     	obj.y = 100 // item에 반영
@@ -119,4 +118,30 @@ const transaction = reduce(
     console.log(item)
     ```
 
-    - for 문에 비해 성능이 좋지 않음.
+    <h4>for loop</h4>
+
+    1. 인덱스 변수를 초기 값으로 설정
+    2. 루프를 종료할지 여부를 확인합니다.
+    3. 루프 본문 실행
+    4. 인덱스 변수 증가
+    5. 2단계로
+
+    <h4>forEach loop</h4>
+
+    1. Instantiate the callback function
+
+    2. 처리할 다음 element 있는지 확인
+
+    3. **새로운 실행 컨텍스트를 사용해서 다음 요소에 대한 콜백 호출**(context, arguments, inner variables, and references to any outer variables -- if used)
+
+    4. 콜백 실행
+
+    5. Teardown of callback function call
+
+    6. 2단계로
+
+       
+
+    - forEach의 3단계와 5단계에서 function setup & teardown 으로 인해 오버헤드 발생
+    - 최신 브라우저의 경우 forEach 호출을 인식하고 최적화 하므로 경우에 따라 forEach 가 떠 빠를 수도 있음.
+
