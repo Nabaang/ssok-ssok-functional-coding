@@ -4,7 +4,7 @@
 
 - 프로그래밍 관점에서 항등 함수(자기 자신을 반환)라는 개념이 재미있었다.
 - 절차 지향적 프로그래밍보다 함수형 프로그래밍으로 체이닝 하는 게 더 가독성이 좋다. (337p)
-    
+  
     - 파이프라인처럼 이전 단계가 끝나고 다음 단계가 시작한다.(전 단계를 생각하지 않아도 됨)
 - 절차 지향 구문을 함수형 구문의 계산으로 분리하는 방법 (ex) 반복문 => filter)
   
@@ -87,16 +87,16 @@
                   unsentMessageList,            // inital value
                   getMessageIdxToRemove,        // fn1
                   removeUnsentFromMessageList,  // fn2
-    				)
+    		)
      }
     
     const filterUnsentMessage = () => {
             return go(
-    							unsentMessageList,
-    							filter(unsentMessageList),
-    							map(getMessageIdxToRemove),
-    							map(removeUnsentFromMessageList),
-    				)
+    			  unsentMessageList,
+    			  filter(unsentMessageList),
+    			  map(getMessageIdxToRemove),
+    			  map(removeUnsentFromMessageList),
+    		)
     }
     ```
     
