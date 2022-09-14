@@ -23,7 +23,7 @@ reduce((acc, list) => list.prop ? acc.concat(list) : acc}, [])
 ...
 [1,2,3,4,5,6,7,8,9] + [10]
 
-O(1+2+3....10) = O(n(n+1) / 2) = O(n2)
+O(1+2+3....10) = O(n(n+1) / 2) = O(n²)
 ```
 
 - java의 경우
@@ -143,5 +143,5 @@ const transaction = reduce(
        
 
     - forEach의 3단계와 5단계에서 function setup & teardown 으로 인해 오버헤드 발생
-    - 최신 브라우저의 경우 forEach 호출을 인식하고 최적화 하므로 경우에 따라 forEach 가 떠 빠를 수도 있음.
+    - 최신 브라우저의 경우 forEach 호출을 인식하고 최적화 하므로 경우에 따라 forEach 가 더 빠를 수도 있음.
 
